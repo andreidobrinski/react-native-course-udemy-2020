@@ -1,15 +1,23 @@
 import React from 'react';
-import { Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 
 const ComponentsScreen = () => {
+  const name = 'Andrei';
+
   return (
-    <Text style={styles.textStyle}>hello</Text>
+    <View>
+      <Text style={styles.textStyle}>React Native Intro</Text>
+      <Text style={styles.subHeaderStyle}>{name}</Text>
+    </View>
   );
 };
 
 const styles = StyleSheet.create({
   textStyle: {
-    fontSize: 30
+    fontSize: 45
+  },
+  subHeaderStyle: {
+    fontSize: 20,
   }
 });
 
