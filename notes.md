@@ -12,3 +12,5 @@ Keys
 - key can either be defined:
   - as the `key` property on the data object
   - in the `keyExtractor` fn on the FlatList
+
+`horizontal={true}`: prop that allows you to scroll a list horizontally. can be combined with `showsHorizontalScrollIndicator={false}`
