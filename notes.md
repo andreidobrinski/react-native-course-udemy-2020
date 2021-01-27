@@ -14,3 +14,9 @@ Keys
   - in the `keyExtractor` fn on the FlatList
 
 `horizontal={true}`: prop that allows you to scroll a list horizontally. can be combined with `showsHorizontalScrollIndicator={false}`
+
+## Buttons
+
+Button: simple button component
+
+TouchableOpacity: original button component, customizable, can be used on any element
