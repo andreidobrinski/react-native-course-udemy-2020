@@ -15,6 +15,9 @@ const styles = StyleSheet.create({
   viewStyle: {
     borderWidth: 3,
     borderColor: 'black',
+    // alignItems: 'center',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
   },
   textStyle: {
     borderWidth: 3,
@@ -22,7 +25,19 @@ const styles = StyleSheet.create({
     // margin: 20,
     // marginVertical: 20,
     // marginHorizontal: 20,
+    flex: 1,
   }
 });
+
+// flexbox defaults
+
+// parent
+// alignItems: 'stretch'
+// flexDirection: 'column'
+// justifyContent: 'flex-start'
+
+// child
+// flex:
+// alignSelf: 'stretch'
 
 export default BoxScreen;
