@@ -26,6 +26,11 @@ const styles = StyleSheet.create({
     // marginVertical: 20,
     // marginHorizontal: 20,
     flex: 1,
+    // position: 'absolute',
+    // top: 10,
+    // bottom: 10,
+    // left: 10,
+    // right: 10,
   }
 });
 
@@ -39,5 +44,14 @@ const styles = StyleSheet.create({
 // child
 // flex:
 // alignSelf: 'stretch'
+
+// element to fill container
+// position: 'absolute'
+// top: 0,
+// bottom: 0,
+// left: 0,
+// right: 0,
+// - or the shortcut -
+//...StyleSheet.absoluteFillObject
 
 export default BoxScreen;
