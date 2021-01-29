@@ -16,7 +16,7 @@ const SearchScreen = () => {
 
   return (
     // common to add flex: 1 to most parent view
-    <View style={{ flex: 1 }}>
+    <>
       <SearchBar
         term={term}
         onTermChange={setTerm}
@@ -38,7 +38,7 @@ const SearchScreen = () => {
           results={filterResultsByPrice('$$$')}
         />
       </ScrollView>
-    </View>
+    </>
   );
 };
 
