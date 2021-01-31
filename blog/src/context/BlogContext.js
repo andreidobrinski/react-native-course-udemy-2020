@@ -67,11 +67,5 @@ export const { Context, Provider } = createDataContext(
     editBlogPost,
     getBlogPosts,
   },
-  [
-    {
-      title: 'test post',
-      content: 'test content',
-      id: 1
-    }
-  ]
+  []
 );
