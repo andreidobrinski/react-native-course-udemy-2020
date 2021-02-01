@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
-import { mongoUri } from './keys';
+const { mongoUri } = require('./keys');
 
 const app = express();
 
