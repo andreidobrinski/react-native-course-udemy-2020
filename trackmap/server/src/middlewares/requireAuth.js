@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const User = mongoose.model('User');
 
-module.export = (req, res, next) => {
+module.exports = (req, res, next) => {
   const { authorization } = req.headers;
 
   if (!authorization) {
