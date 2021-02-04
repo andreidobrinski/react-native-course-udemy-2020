@@ -1,15 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { StyleSheet } from 'react-native';
 import MapView, { Polyline } from 'react-native-maps';
+import { Context as LocationContext } from '../context/LocationContext';
 
 const Map = () => {
-  let points = [];
-  for (let i = 0; i < 20; i++) {
-    points.push({
-
-    });
-  }
-
+  const { state } = useContext(LocationContext);
+  
   return (
     <MapView
       initialRegion={{
@@ -20,9 +16,9 @@ const Map = () => {
       }}
       style={styles.map}
     >
-      <Polyline
+      {/* <Polyline
         coordinates={points}
-      />
+      /> */}
     </MapView>
   );
 };
